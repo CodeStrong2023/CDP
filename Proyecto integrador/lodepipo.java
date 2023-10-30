@@ -1,6 +1,8 @@
 import java.util.Scanner;
 
-public class RestauranteALoDePipo {
+public class lodepipojava.java
+{
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int[][] matriz = new int[9][3];
@@ -74,4 +76,11 @@ public class RestauranteALoDePipo {
                         System.out.println("0. Regresar");
                         pedido = scanner.nextInt();
 
-                        
+                        switch (pedido) {
+
+                        }
+                    } while (repite);
+            }
+        } while (opcion != 5);
+    }
+}
